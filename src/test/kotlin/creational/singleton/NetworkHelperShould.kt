@@ -4,11 +4,11 @@ import com.ngajjarwork.designpatterns.creational.singleton.NetworkHelper
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 
-class NetworkHelperTest{
+class NetworkHelperShould {
 
 
     @Test
-    fun testSingleton(){
+    fun keepSingleCopyOfSingletonClass() {
         val helper1 = NetworkHelper.log()
         val helper2 = NetworkHelper.log()
 
