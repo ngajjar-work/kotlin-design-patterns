@@ -5,14 +5,70 @@ Welcome to the Kotlin Design Patterns for Android Development repository! This p
 ## Design Patterns
 
 ### Creational Patterns
-Creational design patterns deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. This category includes patterns such as Singleton, Factory, Abstract Factory, Builder, and Prototype.
+
+- **Lazy Initialization Pattern**  
+  Delays the creation of an object until it is actually needed. Useful for optimizing resource usage and improving
+  performance.
+
+- **Factory Pattern**  
+  Provides an interface for creating objects but allows subclasses to alter the type of objects that will be created.
+  Ideal for managing object creation without specifying exact classes.
+
+- **Builder Pattern**  
+  Separates the construction of a complex object from its representation, allowing the same construction process to
+  create different representations. Best for constructing complex objects step by step.
+
+- **Abstract Factory Pattern**  
+  Produces families of related objects without specifying their concrete classes. Useful for creating objects that
+  belong to a particular family or product set.
 
 ### Structural Patterns
-Structural design patterns focus on object composition or the structure of classes. They explain how to assemble objects and classes into larger structures while keeping these structures flexible and efficient. This category includes patterns such as Adapter, Composite, Proxy, Decorator, and Facade.
+
+- **Adapter Pattern**  
+  Allows incompatible interfaces to work together by wrapping one interface with another. Useful for integrating legacy
+  systems with new systems.
+
+- **Bridge Pattern**  
+  Decouples an abstraction from its implementation, allowing them to vary independently. Best for managing different
+  implementations of an abstraction.
+
+- **Composite Pattern**  
+  Composes objects into tree structures to represent part-whole hierarchies. Useful for treating individual objects and
+  compositions of objects uniformly.
+
+- **Decorator Pattern**  
+  Adds additional responsibilities to objects dynamically. Ideal for extending the functionality of objects without
+  modifying their structure.
+
+- **Facade Pattern**  
+  Provides a simplified interface to a complex subsystem, making it easier to use. Useful for encapsulating complex
+  operations and exposing a simple interface.
+
+- **Proxy Pattern**  
+  Controls access to an object by providing a surrogate or placeholder. Useful for lazy loading, access control, or
+  logging.
 
 ### Behavioral Patterns
-Behavioral design patterns are concerned with how objects interact and communicate with each other. They emphasize the communication between objects and the assignment of responsibilities among objects. This category includes patterns such as Observer, Strategy, Command, Iterator, and State.
 
+- **Chain of Responsibility Pattern**  
+  Passes a request along a chain of handlers, allowing each handler to process it or pass it to the next. Ideal for
+  handling requests with multiple possible handlers.
+
+- **Command Pattern**  
+  Encapsulates a request as an object, allowing for parameterization and queuing of requests. Useful for implementing
+  undo/redo functionality or command logging.
+
+- **Observer Pattern**  
+  Defines a one-to-many dependency between objects, where a change in one object triggers updates to its dependents.
+  Ideal for event handling systems.
+
+- **Strategy Pattern**  
+  Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Useful for selecting an
+  algorithm at runtime.
+
+- **Visitor Pattern**  
+  Allows adding new operations to objects without modifying their classes. Ideal for adding new functionality to objects
+  without altering their structure.
 ## How to Use
 
 1. Clone the repository:

@@ -1,5 +1,17 @@
 package com.ngajjarwork.designpatterns.creational.lazy
 
+/**
+ * The Lazy Initialization Pattern delays the creation of an object until it is actually needed.
+ * This approach can be useful for optimizing resource usage and improving application
+ * performance by avoiding unnecessary object creation.
+ *
+ * Advantages
+ * 1. Resource Efficiency: Reduces memory usage by only initializing objects when required.
+ * 2. Improved Performance: Can speed up application startup by deferring object creation.
+ * 3. Reduced Overhead: Avoids the cost of creating objects that might not be used.
+ * 4. Thread Safety: In many implementations (e.g., Kotlin’s by lazy),
+ * initialization is thread-safe by default.
+ */
 
 class AdsUtils {
 

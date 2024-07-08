@@ -9,5 +9,4 @@ class PreferenceManager {
     fun disconnect() {
         println("DB disconnected")
     }
-
 }

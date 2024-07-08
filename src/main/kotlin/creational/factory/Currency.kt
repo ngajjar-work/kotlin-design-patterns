@@ -6,9 +6,9 @@ object CurrencyFactory{
 
     fun getCurrency(country: Country): Currency {
        return when(country){
-            is Country.India -> Currency("INR")
-            is Country.Russia -> Currency("RUB")
-            Country.USA -> Currency("USD")
+           is India -> Currency("INR")
+           is Russia -> Currency("RUB")
+           USA -> Currency("USD")
         }
     }
 }

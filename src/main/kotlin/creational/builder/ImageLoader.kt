@@ -1,5 +1,19 @@
 package com.ngajjarwork.designpatterns.creational.builder
 
+/**
+ * The Builder Pattern separates the construction of a complex object from its representation,
+ * allowing the same construction process to create different representations.
+ * It involves a Director that orchestrates the building process and a Builder that
+ * constructs the actual object piece by piece.
+ *
+ * Advantages
+ * 1. Encapsulation of Construction Logic: Separates the construction process from the representation.
+ * 2. Immutable Objects: Allows creation of immutable objects with flexible configurations.
+ * 3. Step-by-Step Construction: Facilitates step-by-step construction of complex objects.
+ * 4. Avoids Constructor Overload: Reduces the need for multiple constructors with different parameters.
+ */
+
+
 class ImageLoader private constructor(builder: Builder) {
 
     var url: String = builder.getUrl()
